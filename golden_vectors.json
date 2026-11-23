@@ -1,0 +1,188 @@
+{
+  "description": "Golden vectors of the BikeLab PSI Calculator (copied 2026-11-23). mtb: copied from the GOLD constant of the live page; road: the six cross-validation cases published in the white paper (DOI 10.5281/zenodo.20671797, section 9), front/rear PSI rounded to integers.",
+  "mtb": {
+    "fields": [
+      "kg",
+      "width_in",
+      "wheel",
+      "system",
+      "hookless",
+      "casing",
+      "rim_mm",
+      "discipline",
+      "front_bar",
+      "rear_bar"
+    ],
+    "tolerance_bar": 0.0001,
+    "cases": [
+      [
+        75,
+        2.4,
+        "29",
+        "tubeless",
+        false,
+        "estandar",
+        30,
+        "trail",
+        1.6681,
+        1.7733
+      ],
+      [
+        90,
+        2.6,
+        "29",
+        "tubeless",
+        false,
+        "reforzada",
+        30,
+        "enduro",
+        1.5891,
+        1.6894
+      ],
+      [
+        60,
+        2.2,
+        "29",
+        "tubeless",
+        false,
+        "estandar",
+        28,
+        "xc",
+        1.4389,
+        1.5296
+      ],
+      [
+        85,
+        2.4,
+        "27.5",
+        "camara",
+        false,
+        "estandar",
+        30,
+        "trail",
+        1.9909,
+        2.1165
+      ],
+      [
+        100,
+        2.5,
+        "27.5",
+        "tubeless",
+        false,
+        "dh",
+        35,
+        "dh",
+        1.8301,
+        1.9455
+      ],
+      [
+        70,
+        2.3,
+        "26",
+        "tubeless",
+        false,
+        "estandar",
+        25,
+        "trail",
+        2.0098,
+        2.1366
+      ],
+      [
+        85,
+        2.4,
+        "29",
+        "tubeless",
+        true,
+        "estandar",
+        30,
+        "trail",
+        1.6252,
+        1.7277
+      ],
+      [
+        55,
+        2.6,
+        "29",
+        "inserto",
+        true,
+        "reforzada",
+        32,
+        "enduro",
+        1.1961,
+        1.2716
+      ]
+    ]
+  },
+  "road": {
+    "tolerance_psi": 0.5,
+    "note": "bike geometry is not stated in the white paper table; racing (60 % rear) for road and endurance (55 %) for gravel reproduce all 12 published values",
+    "cases": [
+      {
+        "case": 1,
+        "kg": 83,
+        "nominal": 28,
+        "rim": 21,
+        "tube": false,
+        "surface": "liso",
+        "share": "racing",
+        "front": 68,
+        "rear": 73
+      },
+      {
+        "case": 2,
+        "kg": 95,
+        "nominal": 28,
+        "rim": 21,
+        "tube": false,
+        "surface": "liso",
+        "share": "racing",
+        "front": 78,
+        "rear": 84
+      },
+      {
+        "case": 3,
+        "kg": 75,
+        "nominal": 32,
+        "rim": 19,
+        "tube": true,
+        "surface": "liso",
+        "share": "racing",
+        "front": 58,
+        "rear": 62
+      },
+      {
+        "case": 4,
+        "kg": 85,
+        "nominal": 40,
+        "rim": 24,
+        "tube": false,
+        "surface": "gravel",
+        "share": "endurance",
+        "front": 35,
+        "rear": 38
+      },
+      {
+        "case": 5,
+        "kg": 100,
+        "nominal": 45,
+        "rim": 25,
+        "tube": false,
+        "surface": "gravel",
+        "share": "endurance",
+        "front": 36,
+        "rear": 39
+      },
+      {
+        "case": 6,
+        "kg": 70,
+        "nominal": 25,
+        "rim": 21,
+        "tube": false,
+        "surface": "liso",
+        "share": "racing",
+        "front": 65,
+        "rear": 70
+      }
+    ]
+  }
+}

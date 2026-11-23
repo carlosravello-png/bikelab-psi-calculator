@@ -1,0 +1,16 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Independent verifier, road/gravel (Python, standard library)
+        run: python3 verify_psi.py
+      - name: Both engines against golden vectors and the white paper (Node.js)
+        run: node check_engine.js

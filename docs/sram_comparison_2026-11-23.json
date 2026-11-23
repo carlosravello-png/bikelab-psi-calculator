@@ -1,0 +1,55 @@
+{
+  "description": "Live comparison against the public SRAM AXS tire pressure guide (https://axs.sram.com/guides/tire/pressure), 2026-11-23, MTB Trail, dry, standard casing front and rear, rider weight = kg, bike weight 14 kg. SRAM shows two decimals.",
+  "cases": [
+    {
+      "golden": "G1",
+      "sram_bar": [
+        1.67,
+        1.78
+      ],
+      "bikelab_bar": [
+        1.6681,
+        1.7733
+      ],
+      "status": "match"
+    },
+    {
+      "golden": "G4",
+      "sram_bar": [
+        1.99,
+        2.11
+      ],
+      "bikelab_bar": [
+        1.9909,
+        2.1165
+      ],
+      "status": "match"
+    },
+    {
+      "golden": "G7",
+      "sram_bar": [
+        1.63,
+        1.74
+      ],
+      "bikelab_bar": [
+        1.6252,
+        1.7277
+      ],
+      "status": "match"
+    },
+    {
+      "golden": "G6",
+      "sram_bar": [
+        2.09,
+        2.22
+      ],
+      "bikelab_bar": [
+        2.0098,
+        2.1366
+      ],
+      "status": "BikeLab 4 % lower (26 in wheel, 25 mm rim) — known limit"
+    }
+  ],
+  "slope_check": "SRAM rider 60→90 kg (bike 11.8 kg, case G1 setup): 1.52, 1.57, 1.61, 1.65, 1.70, 1.74, 1.79 bar front — about +0.044 bar per 5 kg, the same slope as the BikeLab fit",
+  "not_checked": "XC, enduro and DH cases (G2, G3, G5) and inserts (G8; SRAM has no insert option)"
+}
