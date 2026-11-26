@@ -1,7 +1,7 @@
 {
   "upload_type": "software",
   "title": "BikeLab PSI Calculator: Bicycle Tire Pressure (Road/Gravel Constant-Deflection Model and MTB Model) — Engines, Golden Vectors and Verifiers",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "creators": [
     {
       "name": "Ravello Joo, Carlos Eduardo",
@@ -10,7 +10,7 @@
     }
   ],
   "description": "<p>Calculation engines of the BikeLab PSI Calculator (online since 12 June 2026 at bikelabstudio.com, in Spanish, English and Portuguese), copied byte for byte from the live page: a road/gravel constant-deflection model (Frank Berto's 15 % tire drop with a real-width correction from a 321-tire census, documented in DOI 10.5281/zenodo.20671797) and an MTB model fitted to the public SRAM/Zipp guide. Includes golden vectors, an independent Python verifier written from the white paper that reproduces its six published cross-validation cases, a Node.js check of both real engines, and a live comparison against the SRAM AXS guide (2026-11-23) with its known limit declared.</p><p>This is the first release archived from GitHub; versions 1.0 and 2.0 were deposited manually under DOI 10.5281/zenodo.20673124. The original oracle scripts were not preserved; the verifiers were written on 2026-11-23 and are declared as such.</p>",
-  "license": "cc-by-4.0",
+  "license": "polyform-noncommercial-1.0.0",
   "keywords": ["bicycle", "tire pressure", "constant deflection", "Berto", "road", "gravel", "mountain bike", "verification", "golden vectors"],
   "related_identifiers": [
     {"identifier": "10.5281/zenodo.20673124", "relation": "isNewVersionOf", "resource_type": "software", "scheme": "doi"},
