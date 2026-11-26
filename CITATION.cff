@@ -3,7 +3,8 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "BikeLab PSI Calculator"
 version: "3.1.0"
-date-released: "2026-11-25"
+doi: "10.5281/zenodo.24549819"
+date-released: "2026-11-26"
 license: PolyForm-Noncommercial-1.0.0
 url: "https://www.bikelabstudio.com/articles/psi-calculator-en.html"
 authors:

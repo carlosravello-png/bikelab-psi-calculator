@@ -68,6 +68,6 @@ the author. Versions up to 3.0.0 were released under CC BY 4.0 and keep that lic
 Licence and attribution terms: https://carlosravello.com/licencia-en.html. Cite with the metadata in
 [`CITATION.cff`](CITATION.cff); each release is archived on Zenodo with its own DOI.
 
-> Ravello Joo, C. E. (2026). *BikeLab PSI Calculator* (Version 3.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24479993
+> Ravello Joo, C. E. (2026). *BikeLab PSI Calculator* (Version 3.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24549819
 
-All versions from 3.0.0: DOI [10.5281/zenodo.24479992](https://doi.org/10.5281/zenodo.24479992).
+All versions from 3.0.0: DOI [10.5281/zenodo.24479992](https://doi.org/10.5281/zenodo.24479992). Code of version 3.1.0 archived in Software Heritage: [swh:1:rev:5aa23b8f5e1b219359fbd68a4238dc6162a9125c](https://archive.softwareheritage.org/swh:1:rev:5aa23b8f5e1b219359fbd68a4238dc6162a9125c).
